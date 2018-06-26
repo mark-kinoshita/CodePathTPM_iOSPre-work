@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="s3r-1Z-Msc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="s3r-1Z-Msc">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -112,7 +112,9 @@
                             <outletCollection property="gestureRecognizers" destination="VMl-55-0hw" appends="YES" id="ePe-al-MBU"/>
                         </connections>
                     </view>
-                    <navigationItem key="navigationItem" title="Tip Calculator" id="CYi-Vx-sk9"/>
+                    <navigationItem key="navigationItem" title="Tip Calculator" id="CYi-Vx-sk9">
+                        <barButtonItem key="rightBarButtonItem" title="Settings" id="epS-e3-ZSY"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="billField" destination="XtA-X8-6rT" id="W75-NP-2Xf"/>
                         <outlet property="sizeControl" destination="hbn-Ux-6nA" id="mRc-Rj-7fZ"/>
@@ -133,6 +135,7 @@
         <!--Navigation Controller-->
         <scene sceneID="p5U-ch-VTR">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tpe-ZC-UKl" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="s3r-1Z-Msc" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="QjZ-V2-mAE">
@@ -144,7 +147,6 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Rcb-nm-c3w"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="tpe-ZC-UKl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="136" y="133.13343328335833"/>
         </scene>

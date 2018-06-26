@@ -22,7 +22,8 @@ The following **optional** features are implemented:
 The following **additional** features are implemented:
 
 - [ ] List anything else that you can get done to improve the app functionality!
--Party size option to divide tip between multiple people
+
+-[x]Party size option to divide tip between multiple people and give amount per person
 
 ## Video Walkthrough
 
@@ -35,7 +36,6 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
--Still struggling with working with different screen and device sizes
 
 ## License
 
